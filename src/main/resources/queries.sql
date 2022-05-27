@@ -1,0 +1,1 @@
+create table shop(id serial primary key ,name varchar(20),stuff int)
