@@ -13,7 +13,7 @@ public class RestProjectApplication {
     void hello(int x,int[] y){
         System.out.println("Hello World");
         for (int s: y) {
-            System.out.println(s);
+            System.out.printf(s+" интовое значение ");
         }
     }
 }
