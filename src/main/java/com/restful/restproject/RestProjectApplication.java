@@ -10,7 +10,10 @@ public class RestProjectApplication {
         SpringApplication.run(RestProjectApplication.class, args);
     }
 
-    void hello(){
-        System.out.println("hello");
+    void hello(int x,int[] y){
+        System.out.println("Hello World");
+        for (int s: y) {
+            System.out.println(s);
+        }
     }
 }
